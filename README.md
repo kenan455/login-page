@@ -4,7 +4,7 @@
 
 1) - Clone o repositório:
 ```sh
-git clone https://github.com/Kalven7/cantina-senai.git
+git clone https://github.com/kenan455/login-page
 ```
 
 2) - Entre no projeto:
