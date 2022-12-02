@@ -1,4 +1,4 @@
-<h1 align="center" class="line-1 anim-typewriter">Cantina SENAI</h1> 
+<h1 align="center" class="line-1 anim-typewriter">Login SENAI</h1> 
 
 <h2 id="built_with">📝 Como rodar o projeto localmente:</h2>
 
@@ -9,7 +9,7 @@ git clone https://github.com/kenan455/login-page
 
 2) - Entre no projeto:
 ```sh
-cd cantina-senai/
+cd login-page/
 ```
 
 3) - Instale as dependencias do back-end:
@@ -19,11 +19,11 @@ npm i
 
 4) - Entre no front-end e instale as dependencias:
 ```sh
-cd cantinaservice/
+cd App/
 npm i
 ```
 
-5) - Rode o front-end (você deve estar no diretorio "/cantinaservice"):
+5) - Rode o front-end (você deve estar no diretorio "/App"):
 ```sh
 npm run web
 ```
@@ -41,10 +41,11 @@ PORT = 3000
 MYSQL_HOST = localhost
 MYSQL_USER = root # | seu user
 MYSQL_PASSWORD = secret123 # | sua senha
-MYSQL_DATABASE = cantinasenai # | o nome do seu banco de dados criado no passo anterior
+MYSQL_DATABASE = 
+asenai # | o nome do seu banco de dados criado no passo anterior
 JWT_SECRET = SENAI21
 ```
-9) - Entre no arquivo "cantinaservice/src/api/index.js" 
+9) - Entre no arquivo "App/src/api/index.js" 
    - Você deve alterar a baseURL para seu gateway padrão 
    - Para encontra-lo no windows digite: ```ipconfig # ultima linha do retorno```
    - Para encontra-lo no linux digite:```route # ultima linha do retorno```
